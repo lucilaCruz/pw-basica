@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--en ingles-->
+<!--es español-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de persona</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <form>
+      <!--Nombre completo-->
+      <div>
+        <label form="nombre">Nombre Completo:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="ingrese su nombre completo"
+          required
+        />
+      </div>
+      <!--fecha de nacimiento-->
+      <div>
+        <label for="fechaNacimeinto">Fecha de nacimiento:</label>
+        <input
+          type="date"
+          name="fechaNacimeinto"
+          id="fechaNacimeinto"
+          required
+        />
+      </div>
+      <!--Genero-->
+      <!--name:
+      Siempre que necesites enviar datos en un formulario.
+      Es esencial para agrupar campos (como en radio buttons o checkboxes).
+      id:id y for enlazan el texto "Rojo" y "Azul" con sus respectivos botones.
+      -->
+      <div>
+        <label for="genero">Género:</label>
+        <input
+          type="radio"
+          name="genero"
+          id="masculino"
+          value="Masculino"
+          required
+        />
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="femenino" value="Femenino" />
+        <label for="femenino">Femenino</label>
+      </div>
+      <!--correo electronico-->
+      <div>
+        <label for="correo">Correo Electrónico:</label>
+        <input
+          type="email"
+          name="correo"
+          id="correo"
+          placeholder="ejemplo@gmail.com"
+          required
+        />
+      </div>
+      <!--telefono-->
+      <div>
+        <label for="telefono">Teléfono</label>
+        <input
+          type="tel"
+          name="telefono"
+          id="telefono"
+          placeholder="+51 945123963"
+        />
+      </div>
+      <!--pais-->
+      <div>
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+          <option value="">Seleccione un pais</option>
+          <option value="peru">Perú</option>
+          <option value="mexico">México</option>
+          <option value="colombia">Colombia</option>
+          <option value="argentina">Argentina</option>
+        </select>
+      </div>
+      <!--Direccion-->
+      <div>
+        <label for="direccion">Dirección:</label>
+        <textarea
+          name="direccion"
+          id="direccion"
+          placeholder="Ingrese su direccion"
+        ></textarea>
+      </div>
+      <!--interes-->
+
+      <div>
+        <label>Intereses:</label>
+        <input type="checkbox" name="intereses" id="musica" value="Música" />
+        <label for="musica">Música</label>
+        <input
+          type="checkbox"
+          name="intereses"
+          id="deportes"
+          value="Deportes"
+        />
+        <label for="deportes">Deportes</label>
+        <input type="checkbox" name="intereses" id="viajes" value="Viajes" />
+        <label for="viajes">Viajes</label>
+      </div>
+      <!--contraseña-->
+      <div>
+        <label for="password">Contraseña:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Crea una contraseña"
+          required
+        />
+      </div>
+
+      <!--confirmar contraseña-->
+      <div>
+        <label for="confirmPassword">Confirmar Contraseña:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          placeholder="Repite la contraseña"
+          required
+        />
+      </div>
+      <!--boton-->
+      <div>
+        <button type="submit">Registrar</button>
+      </div>
+      <!--
+      Botón genérico 
+    <button type="button" onclick="alert('Botón personalizado')">Botón Personalizado</button>
+
+    Botón de envío
+    <button type="submit">Enviar Formulario</button>
+
+     Botón de reinicio
+    <button type="reset">Reiniciar Formulario</button>
+      -->
+    </form>
+  </body>
+</html>
