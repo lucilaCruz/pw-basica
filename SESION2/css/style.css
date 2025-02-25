@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/*Se definen variables CSS para almacenar colores y valores reutilizables.*/
 :root{
     --primary-color: #1a1a2e;
     --secondary-color:#e8f0f2;
@@ -160,3 +161,4 @@ body{
 .redes__sociales :hover{
     color: rgba(162, 207, 255, 0.886)
 }
+/*comentario*/
