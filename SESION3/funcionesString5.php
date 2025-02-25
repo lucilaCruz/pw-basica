@@ -26,8 +26,8 @@ echo substr($cadena, 11, 3); // "a P"
 
 //BUSCAR UNA PALABRA EN UNA CADENA DE TEXTO
 //Explicación: strpos($cadena, "texto") devuelve la posición donde empieza el texto buscado o false si no lo encuentra
-$frase = "Me encanta programar en PHP";
-$pos = strpos($frase, "PHP");
+$frase = "Los dias Martes tenemos clases";
+$pos = strpos($frase, "Martes");
 
 if ($pos !== false) {
     echo "Encontrado en la posición: " . $pos;
