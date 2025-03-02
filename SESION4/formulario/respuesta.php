@@ -17,7 +17,16 @@
         }
     
     ?>
+    <?php
+        //permite saber con qué método se envió la solicitud
+        //htmlspecialchars() es una función de PHP que convierte caracteres especiales en su equivalente en HTML, evitando que se ejecuten scripts maliciosos.
+        if ($_SERVER["REQUEST_METHOD"] == "GET") {
+            echo "GET: Tu nombre es " . htmlspecialchars($_GET["nombre"]);
+        }
 
-
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            echo "POST: Tu nombre es " . htmlspecialchars($_POST["nombre"]);
+        }
+    ?>
 </body>
 </html>

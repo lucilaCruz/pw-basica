@@ -1,6 +1,17 @@
 <?php 
     session_start();
+
+    //La función unset() se usa para eliminar una variable específica de sesión, pero sin destruir la sesión completa.
     unset($_SESSION['dni']);
+    if (isset($_SESSION['dni'])) {
+        echo "DNI: ".$_SESSION['dni'];
+    }else{
+        echo "la variable no existe";
+    }
+    session_unset();// Elimina todas las variables de sesión
+    session_destroy(); //destruye la sesion
+    /*Cuando usas unset($_SESSION['clave']); o session_unset();, solo eliminas el contenido de las variables de sesión, pero la sesión sigue activa. */
+    echo "Nombre: ".$_SESSION['nombre'];
 
 ?>
 
