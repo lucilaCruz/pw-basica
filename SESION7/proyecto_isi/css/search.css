@@ -1,0 +1,120 @@
+h1{
+	text-align: center;
+}
+
+#busqueda{
+	text-align: center;
+	margin: 20px;
+}
+
+#busqueda input{
+	padding: 8px;
+	font-size: 14px;
+	outline: none;
+   border-radius: 5%;
+}
+
+.btn-buscar{
+	background-color: green;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	border-radius: 10%;
+   border: 1px solid #ccc;
+}
+
+
+.btn-nuevo{
+	background-color: blue;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5%;
+}
+
+.btn-editar{
+	background-color: #2986CC;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5%;
+}
+
+.btn-eliminar{
+	background-color: #CC0000;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5%;
+}
+
+.btn-registrar{
+	background-color: green;
+	padding: 8px;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+	border: none;
+	border-radius: 5%;
+}
+
+table{
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+
+table thead tr{
+	height: 40px;
+	background-color: #3b82f6;
+	color: white;
+	font-size: 14px;
+	border-style: solid;
+	border-color: #3b82f6;
+	padding: 5px;
+}
+
+table tbody tr td{
+	border: 1px;
+	border-style: solid;
+	border-color: #446CE1;
+	padding: 5px;
+}
+
+table tbody tr{
+	background-color: white;
+   text-align: center;
+}
+
+table tbody tr:hover{
+	background-color: #f8fafc;
+}
+
+table tbody tr:nth-child(even){
+	background-color: #f1f5f9;
+}
+
+.img-categoria{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.img-producto{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+
+#tabla{
+	margin-top: 20px;
+}

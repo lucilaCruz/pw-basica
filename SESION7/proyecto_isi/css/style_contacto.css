@@ -1,0 +1,45 @@
+.main__contenedor{
+    padding: 20px;
+    background: var(--color-blanco);
+   
+}
+.main__contenedor h2{
+    font-size: 2.5rem;
+}
+.main__contenedor input,.main__contenedor textarea {
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background:var(--secondary-color);
+    font-size:0.85rem;
+    outline: none;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+.main__contenedor input:focus,
+.main__contenedor textarea:focus {
+    border-color: rgb(62, 139,197); /* Cambia el borde a azul cuando esté enfocado */
+    background-color: #ffffff; /* Opcional: cambia el fondo al enfocar */
+}
+.main__contenedor textarea{
+    resize: none;
+    height: 100px;
+}
+.main__contenedor  button {
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(62, 139,197);
+    color: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 17px 0px;
+}
+
+.main__contenedor  button:hover {
+    background: rgb(36, 123, 190);
+}
