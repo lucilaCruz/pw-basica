@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+   --primary-color: #1e57ad;
+   --secondary-color: #e8f0f2;
+   --text-titulo: #3b42ce;
+   --text-parrafo: #0d93a8;
+   --padding-parrafo: 10px;
+   --btn-primary: #0b53ab;
+}
+
+* {
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+   margin: 0;
+   min-height: 100vh;
+}
+
+.header_contenedor {
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header_title {
+   margin: 0;
+   font-size: 2rem;
+}
+
+
+.header_navbar .navbar_list {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 20px;
+}
+
+.navbar_list .list_item a {
+   text-decoration: none;
+   color: var(--secondary-color);
+   font-weight: 600;
+   padding: 10px 15px;
+   transition: background-color 0.3s ease;
+}
+
+.navbar_list .list_item a:hover {
+   background-color: rgb(62, 139, 197);
+   border-radius: 5px;
+}
+
+.navbar_list .list_item a.active {
+   background-color: rgb(62, 139, 197);
+   border-radius: 5px;
+}
+
+
+.main_contenedor{
+   padding: 30px;
+}
+
+.main_contenedor h2{
+   color: black;
+}
+
+.main_contenedor span{
+   color: var(--text-parrafo);
+   padding: var(--padding-parrafo);
+   font-weight: 600;
+}
+
+.main_contenedor .contenedor{
+   /*display = mostrar*/
+   /*El elemento se convierte en un flexbox contenedor. Por sí solo, se comporta como un elemento de bloque.
+   Sus elementos secundarios se convertirán en elementos flexbox.*/
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /*justify-content: Define cómo se alinean los elementos de flexbox/grid de acuerdo con el principal eje, dentro de un contenedor flexbox/grid.*/
+   /*space-between El espacio restante se distribuye entre los elementos flexbox/grid.
+   
+   justify-content: space-around; espacio al rededor*/
+}

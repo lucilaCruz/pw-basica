@@ -1,0 +1,85 @@
+.container_form{
+    margin-top: 40px;
+ }
+ 
+ .formulario {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .form_group {
+    margin-bottom: 20px;
+ }
+ 
+ .form_group label {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ .form_group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+ }
+ 
+ .form_group input:focus {
+    border: 1px solid #007bff;
+ }
+ 
+ .btn_group{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+ }
+ 
+ .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+ }
+ 
+ select {
+     width: 100%;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+  }
+  
+  select:focus {
+     border: 1px solid #007bff;
+  }
+ 
+ .btn-block {
+    display: block;
+    width: 100%;
+ }
+ 
+ .btn-registrar{
+    background-color: green;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5%;
+ }
+ 
+ .btn-cancelar{
+    background-color: red;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5%;
+ }
